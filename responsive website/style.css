@@ -1,0 +1,214 @@
+html{
+box-sizing: border-box;
+font-family: Arial, helvetica, sans-serif;
+
+}
+
+/* Style the header */
+.cflogo {
+  text-align: left;
+  margin: 10px;
+  
+}
+.banner-1 {
+  float: right;
+  margin: 5px;
+  border-left: 5px;
+}
+
+.header{
+  padding: 20px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #652121;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1 1 200px;
+  
+}
+
+
+h3 { text-align: right; }
+
+/* Style the top navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  flex-direction: row;
+  padding-top: 20px;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  height: 40px;
+
+}
+
+li {
+  flex-direction: row;
+}
+
+li a {
+ 
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #9D6C74;
+}
+
+
+
+/* Style the main content */
+.topnews {
+  height: 40px;
+  background-color: lightgray;
+  color: gray;
+  padding-left: 5px;
+
+  }
+.container {
+  display: flex;
+  
+  }
+.container1 {
+  flex: 3;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+}
+  
+.container2 {
+  flex: 1;
+  flex-grow: 1;
+  color: black;
+  height: 100%;
+  }
+
+
+.container1A {
+  display: flex;
+  flex: 2;
+  }
+.container1B {
+  display: flex;
+  flex: 1;
+  border: 10px;
+  }
+
+.container1C {
+  display: flex;
+  flex: 2;
+  }
+
+.box1{
+  width: 33%;
+  margin: 10px;
+  background-color: black;
+  color: white;
+}
+
+
+.box4{
+   width: 90%;
+   margin-left: 10px;
+   color: gray ;
+   font-weight: bold;
+   font-size: large;
+   background-color: lightgray;
+   height: auto;
+   }
+
+
+
+.box8{
+   height: 400px;
+   flex-grow: 1;
+   margin: 10px;
+}
+
+.box8 > img {
+  flex-grow: 1;
+
+}
+
+/* Style how to be a web developer */
+
+.how {
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.howcontainer {
+  display: flex;
+  
+  }
+.container3 {
+  flex: 3;
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+}
+
+}
+
+.container4 {
+  flex: 1;
+  flex-grow: 1;
+  color: black;
+  height: 100%;
+  
+}
+
+.container3A {
+  display: flex;
+  flex: 2;
+
+}
+.box2 {
+  width: 45%;
+  margin: 10px;
+  background-color: black;
+  color: white;
+  flex: 1;
+}
+
+.box3 {
+    flex-grow: 1;
+   margin: 10px;
+
+}
+
+.CF  {
+  height: auto;
+}
+/* Style the footer */
+
+.footer {
+   vertical-align: text-bottom;
+   background-color: black;
+   color: white;
+   text-align: center;
+   
+}
+
+.cffooter {
+   text-align: right;
+    
+}
+  
+/* Responsive layout - when the screen is less than 700px wide */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+
+ img {
+width:100%;
+}
+}
