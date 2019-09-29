@@ -1,3 +1,18 @@
+@media screen and (max-width: 600px) {
+
+
+
+.desktop-hide{
+  display: block !important;
+}
+
+
+.mobile-hide{
+  
+  display: none !important;
+}
+
+
 html{
 box-sizing: border-box;
 font-family: Arial, helvetica, sans-serif;
@@ -194,10 +209,10 @@ li a:hover {
 }
 
 .cffooter {
-   text-align: right;
+   text-align: center;
    position: absolute;
-   right: 0px;
-   top: 20%;
+   right: 30%;
+   top: 40%;
     
 }
   
@@ -244,20 +259,7 @@ input[type=submit]:hover {
 }
 </style>
 
-/* Responsive layout - when the screen is less than 700px wide */
-@media screen and (max-width: 600px) {
-
-
-
-.desktop-hide{
-  display: block !important;
-}
-
-
-.mobile-hide{
-  
-  display: none !important;
-}
+/* Responsive layout - when the screen is max 600 wide */
 
 
  img {
