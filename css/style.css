@@ -17,9 +17,7 @@ font-family: Arial, helvetica, sans-serif;
 
 }
 
-.mobile_hide{
-  display: block !important
-}
+
 
 .header{
   padding: 20px;
@@ -242,11 +240,10 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding: 20px;
 }
-</style>
+
 
 /* Responsive layout - when the screen is less than 700px wide */
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 375px) {
 
 
 .desktop-hide{
@@ -255,12 +252,11 @@ input[type=submit]:hover {
 
 
 .mobile-hide{
-  
-  display: none !important;
+    display: none !important;
 }
 
 
- img {
+img {
 width:100%;
 }
 }
